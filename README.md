@@ -12,7 +12,7 @@ This is a command-based application developed using Java and MySQL, designed to 
 
 ### Database Configuration
 1. Create a MySQL database for the application
-2. Update database connection parameters in `DatabaseConfig.java`:
+2. Update database connection parameters in `DatabaseConnection.java`:
    - Database URL
    - Username
    - Password
@@ -22,12 +22,12 @@ This is a command-based application developed using Java and MySQL, designed to 
 
 ## Building the Application
 ```bash
-javac -cp .:mysql-connector-java-[version].jar *.java
+javac -cp .:mysql-connector-java-8.0.1.jar *.java
 ```
 
 ## Running the Application
 ```bash
-java -cp .:mysql-connector-java-[version].jar MainApplication
+java -cp .:mysql-connector-java-8.0.1.jar MainApplication
 ```
 
 ## Key Features
@@ -44,13 +44,13 @@ project-root/
 │   ├── main/
 │   │   ├── java/
 │   │   │   ├── DatabaseConnection.java
-│   │   │   ├── CommandProcessor.java
-│   │   │   └── MainApplication.java
+│   │   │   ├── Interface.java
+│   │   │   └── BucketList.java
 │   │   └── resources/
 │   │       └── config.properties
 │
 ├── lib/
-│   └── mysql-connector-java-[version].jar
+│   └── mysql-connector-java-8.01.jar
 │
 └── README.md
 ```
@@ -62,7 +62,7 @@ project-root/
 - Confirm MySQL Connector/J is correctly added
 
 ## License
-[Specify your license here]
+@akarshmi
 
 ## Contact
-[Your contact information]
+akarshmi.am@gmail.com
